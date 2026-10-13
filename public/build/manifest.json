@@ -1,0 +1,70 @@
+{
+  "node_modules/pdfjs-dist/build/pdf.mjs": {
+    "file": "assets/pdf-50TW_qOA.js",
+    "name": "pdf",
+    "src": "node_modules/pdfjs-dist/build/pdf.mjs",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "node_modules/pdfjs-dist/build/pdf.worker.min.mjs": {
+    "file": "assets/pdf.worker.min-CjEcRF4W.mjs",
+    "src": "node_modules/pdfjs-dist/build/pdf.worker.min.mjs"
+  },
+  "node_modules/pdfjs-dist/build/pdf.worker.min.mjs?url": {
+    "file": "assets/pdf.worker.min-CoZJM8t6.js",
+    "name": "pdf.worker.min",
+    "src": "node_modules/pdfjs-dist/build/pdf.worker.min.mjs?url",
+    "isDynamicEntry": true,
+    "assets": [
+      "assets/pdf.worker.min-CjEcRF4W.mjs"
+    ]
+  },
+  "node_modules/pdfmake/build/pdfmake.js": {
+    "file": "assets/pdfmake-COo1AbyP.js",
+    "name": "pdfmake",
+    "src": "node_modules/pdfmake/build/pdfmake.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-CEIlJcw9.css",
+    "name": "app",
+    "names": [
+      "app.css"
+    ],
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-B3HwQ_SX.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "node_modules/pdfmake/build/pdfmake.js",
+      "node_modules/pdfjs-dist/build/pdf.mjs",
+      "node_modules/pdfjs-dist/build/pdf.worker.min.mjs?url",
+      "resources/js/cv/phrases.js",
+      "resources/js/cv/docx/export.js"
+    ]
+  },
+  "resources/js/cv/docx/export.js": {
+    "file": "assets/export-DOeWVulo.js",
+    "name": "export",
+    "src": "resources/js/cv/docx/export.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/cv/phrases.js": {
+    "file": "assets/phrases-Dmlf3WNv.js",
+    "name": "phrases",
+    "src": "resources/js/cv/phrases.js",
+    "isDynamicEntry": true
+  }
+}

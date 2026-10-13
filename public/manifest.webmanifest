@@ -1,0 +1,24 @@
+{
+    "name": "CV Shqip Falas – Krijo CV",
+    "short_name": "CV Shqip",
+    "description": "Krijo CV dhe letër motivimi falas, në shqip, anglisht ose italisht. Të dhënat mbeten në pajisjen tënde.",
+    "lang": "sq",
+    "dir": "ltr",
+    "start_url": "/krijo?burimi=app",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "any",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "categories": ["business", "productivity"],
+    "icons": [
+        { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+        { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+        { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    ],
+    "shortcuts": [
+        { "name": "Krijo CV", "url": "/krijo", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+        { "name": "Importo projekt", "url": "/krijo?importo=1", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+        { "name": "Letër motivimi", "url": "/krijo?hapi=4", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] }
+    ]
+}

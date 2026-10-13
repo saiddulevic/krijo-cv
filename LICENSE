@@ -19,8 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-Third-party components keep their own licences: Inter (SIL Open Font License,
-see public/fonts/inter/LICENSE.txt), pdfmake and docx (MIT), PDF.js (Apache-2.0),
-Laravel, Filament, Alpine.js and the other packages listed in composer.lock and
-package-lock.json.

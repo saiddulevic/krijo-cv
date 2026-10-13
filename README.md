@@ -231,8 +231,14 @@ The CV and interface languages are driven by data, so a sixth language touches t
 
 ## Open source and the privacy page
 
+The source code is public at <https://github.com/saiddulevic/krijo-cv> and is released
+under the MIT licence (see `LICENSE`).
+
 The privacy page explains how visitors can verify that nothing is uploaded (browser
-network tab) and, once an address is saved under **Cilësimet e faqes → Kodi burimor**,
-links to the public repository. Publishing the code means pushing this repository to a
-public host; `.env`, `vendor/`, `node_modules/` and `storage/` are already ignored and
-the history contains no secrets. The code is released under the MIT licence (see `LICENSE`).
+network tab) and, once the address is saved under **Cilësimet e faqes → Kodi burimor**,
+links to the public repository. `.env`, `vendor/`, `node_modules/` and `storage/` are never
+committed. Never commit real credentials: the production `.env` lives only on the server.
+
+Third-party components keep their own licences: Inter (SIL Open Font License, see
+`public/fonts/inter/LICENSE.txt`), pdfmake and docx (MIT), PDF.js (Apache-2.0), Laravel,
+Filament, Alpine.js and the other packages listed in `composer.lock` and `package-lock.json`.
